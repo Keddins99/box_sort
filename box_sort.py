@@ -30,6 +30,3 @@ b3 = Box(8.2, 8.2, 4.5)
 
 box_list = [b1, b2, b3]
 box_sort(box_list)
-
-for box in box_list:
-    print(f"Box with dimensions {box.get_length()} x {box.get_width()} x {box.get_height()} has volume {box.volume()}")
